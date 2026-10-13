@@ -1,5 +1,11 @@
 # 微信需求采集 + Jira 同步项目启动说明
 
+## 下载完整压缩包
+
+[v0.1.0 脱敏源码包](https://github.com/hhhhhaly/wechat-jira/releases/download/v0.1.0/wechat_jira_github_clean_20261013.zip)
+
+> 该包不包含 `.env`、微信解密数据库、微信 key、SQLite 业务数据库和日志。启动前请按下方说明创建配置文件。
+
 这个包包含两个可启动部分：
 
 1. `wechat_requirement_collector/`：微信需求采集、Obsidian/Jira 同步服务  
